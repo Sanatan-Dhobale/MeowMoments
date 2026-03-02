@@ -1,5 +1,3 @@
-Live Demo: https://meow-moments.vercel.app/
-
 # 🐾 MeowMoments
 
 MeowMoments is a web-based application that fetches and displays random cat images along with detailed breed information using TheCatAPI.
@@ -11,7 +9,6 @@ The project focuses on handling asynchronous API requests, validating incomplete
 ## 🚀 Live Demo
 
 🔗 Live Website: https://meow-moments.vercel.app/
-*([Add your deployed link here](https://meow-moments.vercel.app/))*
 
 ---
 
