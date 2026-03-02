@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.heading {
+    padding: 0 0 0.7rem 0;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    padding: 0.5rem 0 1.5rem 0;
+    margin: 1.5rem 0.3rem 1.5rem 0.3rem;
+    font-family: "Montserrat", sans-serif;
+    border: 3px solid transparent;
+    background: linear-gradient(rgb(0, 195, 255), rgb(0, 255, 174)) padding-box,
+        linear-gradient(135deg, #ff00bb, #3300ff) border-box;
+    border-radius: 12px;
+}
+
+.image {
+    max-width: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid transparent;
+    background: linear-gradient(pink, pink) padding-box,
+        linear-gradient(135deg, #ff00bb, #3300ff) border-box;
+    border-radius: 12px;
+}
+
+.cat-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.8rem 0 0 0;
+}
+
+.name,
+.info {
+    background-color: rgb(102, 0, 255);
+    padding: 0.7rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.fact {
+    background-color: white;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 0 0.5rem 0;
+    font-family: "Playpen Sans Thai", cursive;
+}
+
+.generate {
+    margin: 1rem 0 0 0;
+}
+
+.generate button {
+    padding: 1rem;
+    border: none;
+    background-color: #3300ff;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+@media (min-width: 480px) {
+    .container {
+        width: 95%;
+        max-width: 500px;
+        padding: 0.5rem 0.8rem 1.5rem 0.8rem;
+        margin: 1rem auto;
+    }
+
+    .image {
+        width: 70%;
+        max-width: 300px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .name,
+    .info {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+
+    .fact {
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    .generate button {
+        width: 80%;
+        font-size: 0.85rem;
+        padding: 0.7rem;
+    }
+}
+
+@media (min-width: 481px) {
+    .container {
+        width: 85%;
+        padding: 0.5rem 1rem 1.5rem 1rem;
+        margin: 1.2rem auto;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .name,
+    .info {
+        font-size: 0.85rem;
+        padding: 0.6rem;
+    }
+
+    .fact {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.6rem;
+    }
+
+    .generate button {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        width: 500px; /* fixed on large screens */
+        padding: 0.5rem 1rem 1.5rem 1rem;
+        margin: 1.5rem auto;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .name,
+    .info {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    .fact {
+        font-size: 1rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .generate button {
+        width: auto;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
